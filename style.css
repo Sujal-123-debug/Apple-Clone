@@ -1,0 +1,240 @@
+@font-face {
+    font-family: appi;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: appi;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#nav h6{
+    color: white;
+    font-weight: 100;
+}
+
+#main{
+    height: 90%;
+    width: 100%;
+    /* background-color: black; */
+    text-align: center;
+    padding: 40px;
+    background-image: url(./hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main h1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#main h5{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 20px;
+}
+
+#links button{
+    padding: 15px 20px;
+    background-color: #0077ED;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+}
+
+#links button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #0077ED;
+    border: 2px solid #0077ED;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    margin-top: 10px;
+    text-align: center;
+    padding: 40px;
+    background-image: url(./hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page2 h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#page2 p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#page3{
+    height: 80%;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    margin-top: 10px;
+    text-align: center;
+    padding: 40px;
+    background-image: url(./hero_iphone_17__c5vvimu9a20y_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page3 h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#page3 p{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#page4{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#page4 #section1{
+    height: 100%;
+    width: 49%;
+    background-image: url(./promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+#section1 img{
+    display: inline-block;
+}
+
+#section1 p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#page4 #section2{
+    height: 100%;
+    width: 49%;
+    background-image: url(./promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+#section2 h1{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#section2 p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#page5{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#page5 #section1{
+    height: 100%;
+    width: 49%;
+    background-image: url(./promo_macbook_air__fqowrtnxewqe_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+#page5 #section2{
+    height: 100%;
+    width: 49%;
+    background-image: url(./promo_ipad_air_avail__6i02t7nujr62_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+#page6{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#page6 #section1{
+    height: 100%;
+    width: 49%;
+    background-image: url(./promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+#page6 #section2{
+    height: 100%;
+    width: 49%;
+    background-image: url(./promo_apple_card__5cm7draujpey_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
